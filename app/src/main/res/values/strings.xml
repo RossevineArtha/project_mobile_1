@@ -9,11 +9,11 @@
     <string name="total">Total</string>
     <string name="kataPemasukan">Pemasukan</string>
     <string name="kataPengeluaran">Pengeluaran</string>
-    <string name="laporan_per_bulan">Laporan Per Bulan</string>
-    <string name="laporan_per_minggu">Laporan Per Minggu</string>
-    <string name="laporan_per_Kategory">laporan Per Kategory</string>
-    <string name="tampilkan_semua">Tampilkan Semua</string>
+    <string name="laporan_per_bulan">Laporan Per Bulan          ></string>
+    <string name="laporan_per_minggu">Laporan Per Minggu        ></string>
+    <string name="laporan_per_Kategory">laporan Per Kategory    ></string>
+    <string name="tampilkan_semua">Tampilkan Semua              ></string>
     <string name="nama">Rossevine Artha Nathasya</string>
-    <string name="email">Rossevine.Artha@Gmail</string>
+    <string name="email">Rossevine.Artha@Gmail </string>
 
 </resources>

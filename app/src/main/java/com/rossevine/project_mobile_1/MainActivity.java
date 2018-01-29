@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
 
         TextView txtPenghasilan = findViewById(R.id.textView2);
         txtPenghasilan.setText("Rp 50.000.00");
-        txtPenghasilan.setTextColor(Color.CYAN);
+        txtPenghasilan.setTextColor(Color.GREEN);
 
 
         TextView txtPengeluwaran = findViewById(R.id.textView3);

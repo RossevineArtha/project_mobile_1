@@ -18,16 +18,5 @@ public class HomeActivity extends Activity {
 
         //setTanggal();
     }
-    public void setTanggal(){
-        TextView txtTanggal = findViewById(R.id.textView);
-        Calendar c = Calendar.getInstance();
-        SimpleDateFormat df = new SimpleDateFormat("dd-MMM-yyyy");
-        String formattedDate = df.format(c.getTime());
-        txtTanggal.setText("Tanggal : " + formattedDate);
 
-        TextView txtPenghasilan = findViewById(R.id.textView2);
-        txtPenghasilan.setText("Rp 50.000.00");
-        txtPenghasilan.setTextColor(Color.CYAN);
-
-    }
 }
