@@ -69,13 +69,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void setTanggal(){
-        TextView txtTanggal = findViewById(R.id.textView);
+        TextView txtTanggal = findViewById(R.id.textView2);
         Calendar c = Calendar.getInstance();
         SimpleDateFormat df = new SimpleDateFormat("dd-MMM-yyyy");
         String formattedDate = df.format(c.getTime());
         txtTanggal.setText("Tanggal : " + formattedDate);
 
-        TextView txtPenghasilan = findViewById(R.id.textView2);
+        TextView txtPenghasilan = findViewById(R.id.textView);
         txtPenghasilan.setText("Rp 50.000.00");
         txtPenghasilan.setTextColor(Color.GREEN);
 

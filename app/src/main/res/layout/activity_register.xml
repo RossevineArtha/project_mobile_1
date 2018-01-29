@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.rossevine.project_mobile_1.RegisterActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="413dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_spasi_margin"
+        android:layout_marginEnd="@dimen/activity_spasi_margin"
+        android:layout_marginStart="@dimen/activity_spasi_margin"
+        android:layout_marginTop="@dimen/activity_spasi_margin"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/katanama"
+        android:textSize="@dimen/tulisanSemua" />
+
+    <EditText
+        android:layout_width="439dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_spasi_margin"
+        android:layout_marginEnd="@dimen/activity_spasi_margin"
+        android:layout_marginStart="@dimen/activity_spasi_margin"
+        android:layout_marginTop="@dimen/activity_spasi_margin"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="@string/kataemail"
+        android:textSize="@dimen/tulisanSemua" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_spasi_margin"
+        android:layout_marginEnd="@dimen/activity_spasi_margin"
+        android:layout_marginStart="@dimen/activity_spasi_margin"
+        android:layout_marginTop="@dimen/activity_spasi_margin"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="@string/kataPassword"
+        android:textSize="@dimen/tulisanSemua" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_spasi_margin"
+        android:layout_marginEnd="@dimen/activity_spasi_margin"
+        android:layout_marginStart="@dimen/activity_spasi_margin"
+        android:layout_marginTop="@dimen/activity_spasi_margin"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="@string/kataPassword"
+        android:textSize="@dimen/tulisanSemua" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/registrasi" />
+</LinearLayout>
