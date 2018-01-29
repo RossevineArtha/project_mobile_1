@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="action_settings">Settings</string>
+    <string name="tambah">Add</string>
+    <string name="tanggal">Tanggal : 29 Januari 2018</string>
+    <string name="pemasukkan">Rp. 50.000.000,-</string>
+    <string name="pengeluaran">Rp. 50.000,-</string>
+    <string name="tanggalRe">30 Des - 29 Jan 2018</string>
+    <string name="total">Total</string>
+    <string name="kataPemasukan">Pemasukan</string>
+    <string name="kataPengeluaran">Pengeluaran</string>
+    <string name="laporan_per_bulan">Laporan Per Bulan</string>
+    <string name="laporan_per_minggu">Laporan Per Minggu</string>
+    <string name="laporan_per_Kategory">laporan Per Kategory</string>
+    <string name="tampilkan_semua">Tampilkan Semua</string>
+    <string name="nama">Rossevine Artha Nathasya</string>
+    <string name="email">Rossevine.Artha@Gmail</string>
+
+</resources>
