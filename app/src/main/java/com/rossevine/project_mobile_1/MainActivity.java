@@ -34,13 +34,13 @@ public class MainActivity extends AppCompatActivity {
         tabProfile.setContent(R.id.layout1);
         host.addTab(tabProfile);
         setTanggal();
-
-        //Coba Tab2
-        TabHost.TabSpec tabLaporan = host.newTabSpec("Tab Two");
-        tabLaporan = host.newTabSpec("Tab Laporan");
-        tabLaporan.setIndicator("Laporan");
-        tabLaporan.setContent(R.id.layout2);
-        host.addTab(tabLaporan);
+//
+//        //Coba Tab2
+//        TabHost.TabSpec tabLaporan = host.newTabSpec("Tab Two");
+//        tabLaporan = host.newTabSpec("Tab Laporan");
+//        tabLaporan.setIndicator("Laporan");
+//        tabLaporan.setContent(R.id.layout2);
+//        host.addTab(tabLaporan);
 
         //Coba Tab3
         TabHost.TabSpec tabHome = host.newTabSpec("Tab three");

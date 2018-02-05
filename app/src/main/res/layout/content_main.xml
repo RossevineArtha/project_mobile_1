@@ -36,11 +36,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"></include>
 
-                <include
-                    android:id="@+id/layout2"
-                    layout="@layout/activity_report"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"></include>
+                <!--<include-->
+                    <!--android:id="@+id/layout2"-->
+                    <!--layout="@layout/activity_report"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"></include>-->
 
                 <include
                     android:id="@+id/layout3"
