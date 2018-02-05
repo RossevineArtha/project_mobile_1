@@ -18,7 +18,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="TextView"
+            android:text=""
             android:textSize="@dimen/tulisanSemua" />
 
         <TextView
@@ -26,7 +26,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="TextView"
+            android:text=""
+            android:textAlignment="viewEnd"
             android:textSize="@dimen/tulisanSemua" />
 
     </LinearLayout>
@@ -36,14 +37,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="TextView"
+        android:text=""
+        android:textAlignment="viewEnd"
         android:textSize="@dimen/tulisanSemua" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonAdd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+
+        android:onClick="btnAddOnClick"
         android:text="@string/tambah"
         android:textSize="@dimen/fab_margin" />
 

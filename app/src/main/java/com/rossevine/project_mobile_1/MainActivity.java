@@ -34,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
         tabProfile.setContent(R.id.layout1);
         host.addTab(tabProfile);
         setTanggal();
-//
-//        //Coba Tab2
+
+        //Coba Tab2
 //        TabHost.TabSpec tabLaporan = host.newTabSpec("Tab Two");
 //        tabLaporan = host.newTabSpec("Tab Laporan");
 //        tabLaporan.setIndicator("Laporan");
@@ -107,4 +107,8 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+    public void btnAddOnClick(View view){
+        System.out.println("Hello " );
+    }
+
 }

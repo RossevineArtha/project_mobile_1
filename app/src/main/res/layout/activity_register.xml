@@ -8,7 +8,7 @@
     tools:context="com.rossevine.project_mobile_1.RegisterActivity">
 
     <EditText
-        android:id="@+id/editTextName"
+        android:id="@+id/editText"
         android:layout_width="413dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/activity_spasi_margin"
@@ -22,7 +22,6 @@
         android:textSize="@dimen/tulisanSemua" />
 
     <EditText
-        android:id="@+id/editTextEmail"
         android:layout_width="439dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/activity_spasi_margin"
@@ -36,7 +35,6 @@
         android:textSize="@dimen/tulisanSemua" />
 
     <EditText
-        android:id="@+id/editTextPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/activity_spasi_margin"
@@ -46,10 +44,11 @@
         android:layout_weight="1"
         android:ems="10"
         android:inputType="textPassword"
+        android:text="@string/kataPassword"
         android:textSize="@dimen/tulisanSemua" />
 
     <EditText
-        android:id="@+id/editTextRePassword"
+        android:id="@+id/editText2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/activity_spasi_margin"
@@ -63,7 +62,7 @@
         android:textSize="@dimen/tulisanSemua" />
 
     <Button
-        android:id="@+id/buttonRegister"
+        android:id="@+id/button7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
