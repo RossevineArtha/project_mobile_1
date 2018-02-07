@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -25,9 +25,9 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="end"
             android:layout_weight="1"
             android:text=""
-            android:textAlignment="viewEnd"
             android:textSize="@dimen/tulisanSemua" />
 
     </LinearLayout>
@@ -36,18 +36,17 @@
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="end"
         android:layout_weight="1"
         android:text=""
-        android:textAlignment="viewEnd"
         android:textSize="@dimen/tulisanSemua" />
 
     <Button
-        android:id="@+id/buttonAdd"
+        android:id="@+id/buttonAdd12"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
 
-        android:onClick="btnAddOnClick"
         android:text="@string/tambah"
         android:textSize="@dimen/fab_margin" />
 

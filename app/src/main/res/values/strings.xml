@@ -23,9 +23,13 @@
     <string name="katanama">Name</string>
     <string name="kataemail">Email</string>
     <string name="kataPassword">Password</string>
+    <string name="kataPasswordOld">Old Password</string>
+    <string name="kataPasswordNew">New Password</string>
+    <string name="kataPasswordReNew">Re New Password</string>
     <string name="kataRePassword">Re-Password</string>
     <string name="registrasi">Registrasi</string>
-
+    <string name="masukPenge">Add Pemasukan/Pengeluwaran</string>
+    <string name="ubahPassword">Ganti Password</string>
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password (optional)</string>

@@ -37,16 +37,22 @@
         android:textAlignment="viewEnd">
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/buttonAlokasiData"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/alokasiDana" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/buttonUbahPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/ubahPass" />
+
+        <Button
+            android:id="@+id/buttonMasukanPengeluwaran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/masukPenge" />
     </LinearLayout>
 
 </LinearLayout>
